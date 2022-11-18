@@ -1,16 +1,13 @@
 import React, { useState } from "react"
-import AllPost from "../components/AllPost"
 import Layout from "../components/Layout"
 import "./index.css"
 
-const Home = () => {
+const History = () => {
   return (
     <Layout>
-      <div>
-        <AllPost />
-      </div>
+      <div>Another page</div>
     </Layout>
   )
 }
 
-export default Home
+export default History
